@@ -1,9 +1,6 @@
-
-
 <script setup>
 
 </script>
-
 
 <template>
     <header class="hero-container">
@@ -19,15 +16,13 @@
     }
     .hero-title {
         font-size: 4rem;
-        font-weight: 1000;
+        font-weight: 700;
         color: #003131;
     }
     .hero-subtitle {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         color: #007979;
-        margin-top: 0.5rem;
-        text-transform: uppercase;
-        letter-spacing: 2px;
+        margin-top: 1rem;
     }
 
 
