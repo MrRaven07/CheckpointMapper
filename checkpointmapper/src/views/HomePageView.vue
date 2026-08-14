@@ -4,6 +4,8 @@ import { useRouter } from 'vue-router'
 
 import BigTitle from '../components/BigTitle.vue'
 import MenuButton from '../components/MenuButton.vue'
+import AnimatedBackgroundMap from '../components/AnimatedBackgroundMap.vue'
+
 
 const router = useRouter()
 
@@ -20,17 +22,20 @@ function handleNavigation(destination) {
 
 <template>
     
+    <AnimatedBackgroundMap />   
+
     <main class="fullscreen-layout">
 
-        <div class="layout-center">
+        <div class="content-wrapper">        
             <BigTitle />
-        </div>
-
-        <div class="layout-bottom">
             <nav class="button-container">
                 <MenuButton 
                     label="View Map"
                     @actionClick="handleNavigation('View Map')"
+                />
+                <MenuButton
+                    label="What's this?"
+                    @actionClick=""
                 />
             </nav>
         </div>
@@ -47,16 +52,18 @@ function handleNavigation(destination) {
         flex-direction: column;
         height: 100vh;
     }
-    .layout-center {
-        flex: 1;
+    .content-wrapper {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
         align-items: center;
+        gap: 2rem;
     }
-    .layout-bottom {
-        padding-bottom: 2rem;
+    .button-container {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        
     }
 
 </style>

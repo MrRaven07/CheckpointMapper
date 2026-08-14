@@ -2,6 +2,16 @@
 
 
 
+
+---
+
+### What's Leaflet?
+
+---
+
+### What's Vue?
+
+
 ---
 
 ### How does `Vue` work vs the `traditional` way.
