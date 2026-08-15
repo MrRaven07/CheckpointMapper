@@ -5,7 +5,7 @@ import { useRouter } from 'vue-router'
 import BigTitle from '../components/BigTitle.vue'
 import MenuButton from '../components/MenuButton.vue'
 import AnimatedBackgroundMap from '../components/AnimatedBackgroundMap.vue'
-
+import MapAttribution from '../components/MapAttribution.vue'
 
 const router = useRouter()
 
@@ -40,6 +40,7 @@ function handleNavigation(destination) {
             </nav>
         </div>
 
+        <MapAttribution />
     </main>
 
 </template>
