@@ -6,10 +6,10 @@ A minimalistic app that combines Vue.js and Leaflet that lets the user see their
 ### Roadmap:
 
 High importance:
-- [ ] Creating the home page
-- [ ] Adding the Leaflet library
+- [x] Creating the home page
+- [ ] Improving the home page
+- [x] Adding the Leaflet library
 - [ ] Creating the map page
-
 
 Medium importance:
 - [ ] Creation of the project emblem/picture
@@ -23,6 +23,7 @@ Medium importance:
 
 
 Low importance:
+- [ ] Dark/Light theme
 - [ ] Improving the `README.md` file with examples
 - [ ] Find about google maps synchronization possibilities
   

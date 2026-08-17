@@ -15,10 +15,7 @@ function handleNavigation(destination) {
     }
 }
 
-
-
 </script>
-
 
 <template>
     
